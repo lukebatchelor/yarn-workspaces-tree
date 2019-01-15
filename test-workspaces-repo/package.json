@@ -1,0 +1,17 @@
+{
+  "name": "test-workspaces-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf packages/*/node_modules && rm -rf node_modules"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "noop2": "^2.0.0",
+    "unicorn": "^0.0.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "yarn-workspaces-tree",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luke Batchelor <lbatchelor@atlassian.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "find-yarn-workspace-root": "^1.2.1",
+    "meow": "^5.0.0",
+    "pkg-dir": "^3.0.0",
+    "print-tree": "^0.1.5",
+    "semver": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/meow": "^5.0.0",
+    "@types/node": "^10.12.18"
+  }
+}
